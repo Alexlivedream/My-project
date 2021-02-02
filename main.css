@@ -21,6 +21,11 @@ ul li {
     list-style: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
 .container {
     margin: 0 auto;
     width: 1150px;
@@ -29,6 +34,7 @@ ul li {
 .header {
     height: 120px;
     position: relative;
+    margin-bottom: 166px;
 }
 
 .logo {
@@ -40,14 +46,14 @@ ul li {
 
 .menu {
     position: absolute;
-    top: 65px;
-    left: 250px;
+    top: 61px;
+    left: 262px;
 }
 
 .contacts {
     position: absolute;
-    top: 48px;
-    right: 0;
+    top: 44px;
+    right: 9px;
 }
 
 .menu__item {
@@ -80,6 +86,39 @@ ul li {
     font-size: 13px;
     text-decoration: underline;
     color: #dfb56d;
+    margin-top: -3px;
+}
+
+.hero__text-section {
+    width: 400px;
+}
+
+.hero__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 22px;
 
 }
 
+.hero__subtitle {
+    font-size: 18px;
+    color: #dfb56d;
+    margin-bottom: 59px;
+}
+
+.btn {
+    font-size: 14px;
+    background: #dfb56d;
+    border-radius: 4px;
+    padding: 16px 39px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #d3a556;
+    box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15);
+}
